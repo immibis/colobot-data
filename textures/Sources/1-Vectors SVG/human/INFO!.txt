@@ -1,0 +1,1 @@
+Nie wektorować tekstur w tym katalogu ze względu na wdrażanie nowego modelu Astronauty.
