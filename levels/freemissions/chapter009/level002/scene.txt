@@ -1,0 +1,175 @@
+Title.E text="Test level"
+Resume.E text="Do whatever you want, build a base camp and some bots, without any precise objective."
+Instructions name="freehelp.txt"
+HelpFile name="cbot.txt"
+EndingFile win=-1 lost=-1
+
+Audio filename="music009.ogg"
+
+#Include file="levels/missions/chapter009/planet.txt"
+//TerrainGenerate vision=250.00 depth=1 slope=3.0 hard=0.3 mosaic=30 brick=4
+//TerrainWind speed=-2.0;0.0
+//TerrainCloud image="cloud02.png" level=87.5
+//TerrainRelief image="reliefTEST.png" factor=1.0
+TerrainRelief image="relief02.png" factor=1.0
+TerrainResource image="res00.png"
+TerrainWater image="water12.png" level=30.0 moveX=1.0 moveY=0.3
+#Include file="levels/missions/chapter009/terrain.txt"
+TerrainCreate
+
+BeginObject
+CreateObject pos=37.50;-65.00 dir=0.0 type=BlueFlag
+//CreateObject pos= 137.0;-390.0 dir=1.0 type=WreckBotw1
+CreateObject pos=37.50;-78.25 dir=1.5 type=Me
+//CreateObject pos=40.75;-78.25 dir=1.5 type=WheeledGrabber
+//CreateObject pos= 137.0;-313.0 dir=1.5 type=WingedGrabber
+//CreateObject pos= 544.0; -58.0 dir=1.5 type=Subber
+CreateObject pos=37.38;-71.88 dir=0.0 type=Titanium
+CreateObject pos=30.00;-71.88 dir=0.0 type=ResearchCenter
+CreateObject pos=20.00;-71.88 dir=0.5 type=WaterPump
+CreateObject pos=30.00;-75.88 dir=1.0 type=WheeledGrabber power=100
+CreateObject pos=25.00;-76.50 dir=0.0 type=Bucket
+CreateObject pos=40.00;-72.50 dir=0.0 type=PowerCell
+CreateObject pos=41.25;-72.50 dir=0.0 type=PowerCell
+CreateObject pos=40.00;-71.25 dir=0.0 type=PowerCell
+CreateObject pos=41.25;-71.25 dir=0.0 type=PowerCell
+CreateObject pos=41.25;-85.00 dir=0.0 type=ApolloJeep
+CreateObject pos=-28.25;-116.75 dir=0.9 type=TitaniumOre
+CreateObject pos=-30.50;-120.75 dir=0.4 type=TitaniumOre
+CreateObject pos=80.00;-58.75 dir=0.4 type=TitaniumOre
+CreateObject pos=81.00;-57.00 dir=0.0 type=TitaniumOre
+CreateObject pos=83.00;-56.50 dir=0.9 type=TitaniumOre
+CreateObject pos=83.25;-58.50 dir=0.1 type=TitaniumOre
+CreateObject pos=83.75;-61.50 dir=0.2 type=TitaniumOre
+CreateObject pos=84.75;-56.75 dir=0.6 type=TitaniumOre
+CreateObject pos=85.00;-59.00 dir=0.4 type=TitaniumOre
+CreateObject pos=85.50;-64.50 dir=0.8 type=TitaniumOre
+CreateObject pos=86.25;-61.50 dir=0.1 type=TitaniumOre
+CreateObject pos=87.50;-57.25 dir=0.2 type=TitaniumOre
+CreateObject pos=87.75;-58.50 dir=0.5 type=TitaniumOre
+CreateObject pos=88.00;-59.25 dir=0.4 type=TitaniumOre
+CreateObject pos=32.50;-100.00 dir=0.5 type=TitaniumOre
+CreateObject pos=118.25;-9.25 dir=0.0 type=PowerCell power=0.9
+
+CreateObject pos=120.00;30.00 dir=0.0 type=Greenery2
+CreateObject pos=117.50;23.25 dir=0.0 type=Greenery4
+CreateObject pos=113.75;13.00 dir=0.0 type=Greenery3
+
+CreateObject pos=154.25; -1.25 dir=0.0 type=Greenery0
+CreateObject pos=155.00; -7.50 dir=0.0 type=Greenery4
+CreateObject pos=147.50;-10.00 dir=0.1 type=Greenery2
+CreateObject pos=163.00;-16.25 dir=0.3 type=Greenery4
+CreateObject pos=155.00;-10.00 dir=0.0 type=Greenery1
+CreateObject pos=158.75;-15.50 dir=0.8 type=Greenery4
+CreateObject pos=150.00; -7.50 dir=0.0 type=Greenery3
+
+CreateObject pos=177.50;38.25 dir=0.2 type=Greenery4
+CreateObject pos=176.25;25.25 dir=0.0 type=Greenery3
+CreateObject pos=180.00;27.75 dir=0.0 type=Greenery0
+CreateObject pos=181.25;34.25 dir=0.0 type=Greenery4
+CreateObject pos=180.00;42.50 dir=0.2 type=Greenery3
+CreateObject pos=178.75;21.25 dir=0.0 type=Greenery2
+CreateObject pos=182.50;27.75 dir=0.3 type=Greenery4
+CreateObject pos=181.25;43.00 dir=0.0 type=Greenery1
+CreateObject pos=180.00;25.25 dir=1.5 type=Greenery4
+CreateObject pos=187.50;18.75 dir=0.9 type=Greenery4
+
+CreateObject pos=110.00;-20.00 dir=0.5 type=Greenery0
+CreateObject pos=105.00; -5.00 dir=0.0 type=Greenery2
+CreateObject pos=102.75; 3.00 dir=0.0 type=Greenery4
+CreateObject pos= 95.00; 5.00 dir=0.5 type=Greenery3
+CreateObject pos=108.00; -2.50 dir=0.0 type=Greenery0
+CreateObject pos=100.75; -8.25 dir=0.0 type=Greenery1
+CreateObject pos=105.00; 10.25 dir=0.0 type=Greenery3
+CreateObject pos= 93.50; 0.00 dir=0.7 type=Greenery2
+
+CreateObject pos= 12.50;-137.50 dir=1.0 type=WreckBotw1
+CreateObject pos= 15.00;-140.50 dir=1.0 type=Greenery0
+CreateObject pos= 20.00;-135.50 dir=0.0 type=Greenery1
+CreateObject pos=-25.00; -62.50 dir=1.0 type=WreckBott1
+CreateObject pos= 75.00; -97.50 dir=1.0 type=WreckBotr1
+CreateObject pos=125.00; -12.50 dir=1.0 type=WreckBotw2
+CreateObject pos=145.00; -12.50 dir=0.2 type=WreckBotw1
+CreateObject pos=137.50; -20.00 dir=0.0 type=WreckBott1 h=-2.0
+CreateObject pos=150.00; -25.00 dir=0.3 type=WreckBotr1 h=-1.0
+CreateObject pos=152.50; -26.25 dir=1.6 type=WreckBotw1 h=-1.0
+CreateObject pos=130.00; -1.25 dir=1.3 type=WreckBott2
+CreateObject pos=137.50; 12.50 dir=0.4 type=WreckBotr2 h=-2.0
+CreateObject pos=147.50; 22.50 dir=1.0 type=WreckBotw1
+
+//CreateObject pos= 80.0;-400.0 dir=0.0 type=Greenery10
+//CreateObject pos= 40.0;-350.0 dir=0.0 type=Greenery11
+//CreateObject pos= 60.0;-380.0 dir=0.0 type=Greenery12
+//CreateObject pos= 10.0;-300.0 dir=0.0 type=Greenery13
+//CreateObject pos= 20.0;-320.0 dir=0.0 type=Greenery14
+
+CreateObject pos=90.00;-35.00 dir=1.0 type=RuinBotFactory
+CreateObject pos=90.00;-36.25 dir=0.2 type=Greenery0
+CreateObject pos=89.50;-31.25 dir=0.0 type=Greenery4
+CreateObject pos=87.00;-35.00 dir=1.9 type=WreckBotw1 h=-1.0
+CreateObject pos=93.75;-42.50 dir=0.7 type=WreckBott1 h=-1.0
+CreateObject pos=80.00;-42.50 dir=0.3 type=RuinSupport
+
+CreateObject pos=145.00;75.00 dir=0.0 type=RuinBaseCamp h=-9.0
+CreateObject pos=140.00;95.00 dir=0.1 type=RuinHeadCamp
+CreateObject pos=180.00;65.00 dir=1.0 type=RuinBotFactory
+CreateObject pos=175.00;62.50 dir=0.3 type=WreckBott1 h=-0.5
+CreateObject pos=170.00;67.50 dir=0.3 type=RuinConvert
+CreateObject pos=180.00;70.00 dir=0.3 type=Greenery4
+CreateObject pos=187.50;62.50 dir=0.3 type=Greenery1
+
+CreateObject pos=-20.00; -80.00 dir=1.0 type=RuinBotFactory h=-5.0
+CreateObject pos=-10.00; -75.00 dir=0.3 type=RuinDoor
+CreateObject pos= -7.50; -80.00 dir=0.0 type=RuinSupport
+CreateObject pos= -6.25; -87.50 dir=1.1 type=RuinRadar
+CreateObject pos= -6.25;-100.00 dir=0.0 type=RuinConvert
+CreateObject pos=-10.00;-103.00 dir=0.0 type=Greenery5
+CreateObject pos=-11.25; -98.75 dir=0.0 type=Greenery6 h=-1.0
+CreateObject pos=-10.50;-100.00 dir=0.0 type=Greenery7 h=1.5
+CreateObject pos= -6.25;-102.50 dir=0.0 type=Greenery6 h=-1.0
+
+CreateObject pos=-22.50;160.00 dir=0.2 type=RuinBotFactory
+CreateObject pos=-12.50;150.00 dir=0.9 type=WreckBotr2 h=-2.0
+CreateObject pos= 10.00;137.50 dir=0.3 type=RuinRadar
+CreateObject pos= 5.00;136.25 dir=1.2 type=RuinSupport
+
+CreateObject pos=-17.75; -89.25 dir=0.0 type=Tree0 h=0.0
+CreateObject pos= 1.00;-107.75 dir=0.4 type=Tree1 h=-2.0
+CreateObject pos= 15.00;-111.00 dir=1.2 type=Tree2 h=4.0
+CreateObject pos= 14.25;-109.25 dir=0.0 type=Greenery5 h=-1.0
+CreateObject pos= 16.75;-110.75 dir=0.4 type=Greenery6 h=1.5
+CreateObject pos= 22.25;-111.00 dir=0.9 type=Greenery7 h=0.0
+CreateObject pos= 23.75;-109.25 dir=0.7 type=Tree3 h=0.0
+CreateObject pos= 57.50; -98.50 dir=0.3 type=Tree1 h=4.0
+CreateObject pos= 83.25; -83.25 dir=1.8 type=Tree0 h=-1.0
+
+CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
+CreateLight dir= 1.0; 0.0;-1.0 color=-0.70;-0.70;-0.70 type=Terrain
+CreateLight dir=-1.0; 0.0; 1.0 color= 1.40; 1.40; 1.40 type=Terrain
+CreateLight dir=-1.0;-1.0; 1.0 color= 0.56; 0.56; 0.56 type=Object
+CreateLight dir= 1.0;-1.0; 1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
+WaterColor color=-0.6;-0.1;-0.1
+
+EnableResearch type=TRACKER
+EnableResearch type=WINGER
+EnableResearch type=THUMPER
+EnableResearch type=SHOOTER
+EnableResearch type=PHAZER
+EnableResearch type=TOWER
+EnableResearch type=ATOMIC
+EnableResearch type=SHIELDER
+EnableResearch type=iPAW
+EnableResearch type=iGUN
+EnableResearch type=RECYCLER
+EnableResearch type=SUBBER
+EnableResearch type=SNIFFER
+
+MapColor floor=0.647;0.557;0.420 water=0.604;0.922;1.000
+MapZoom factor=2
+
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
+EndMissionTake pos=0.00;0.00 dist=1000 type=TNT min=1
+
+Camera eye=0.00;5.00;0.00 lookat=0.00;1.00;0.00 delay=0
